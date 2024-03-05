@@ -46,22 +46,29 @@ https://vercel.com
 -   Register page
 -   My Profile Page
 -   Admin Page
--   Update Profile page
 
 ## ScreenShots
+### 1. User Vote Candidate
+![User Vote Candidate](https://github.com/nitinkondhari03/Voting_App/assets/107460712/8fede8e7-0ad6-4cb0-b8c4-6b742ec21b05)
 
-### 1. Login
+### 2. User Already Voted
+![User already voted](https://github.com/nitinkondhari03/Voting_App/assets/107460712/77121e92-c463-4ad3-9f70-0999a2832d7e)
+
+### 3. User Winner Show
+![User Winner Show](https://github.com/nitinkondhari03/Voting_App/assets/107460712/e734e517-c977-4e80-a107-088e1691158d)
+
+### 4. Login
 ![Login](https://github.com/nitinkondhari03/Voting_App/assets/107460712/15114fd4-c277-4764-acbe-2ecb7b12fe22)
 
-### 2. Register
+### 5. Register
 ![Register](https://github.com/nitinkondhari03/Voting_App/assets/107460712/00df7d57-85b0-4909-a07f-f200dec9aa78)
 
-### 3. My Profile
+### 6. My Profile
 ![My Profile](https://github.com/nitinkondhari03/Voting_App/assets/107460712/a5825549-b019-4724-8011-5466776e3f00)
 
-## 4. Admin Total Votes Count
+## 7. Admin Total Votes Count
 ![Admin Total Votes Count](https://github.com/nitinkondhari03/Voting_App/assets/107460712/045fbdf1-8e4d-4372-9666-4bbd942b9d59)
 
-## 5. Admin Winner Show 
+## 8. Admin Winner Show 
 ![Admin Winner Show ](https://github.com/nitinkondhari03/Voting_App/assets/107460712/f6ec8647-8531-4232-bfa2-4594f26033a2)
 
