@@ -2,7 +2,7 @@
 
 A secure voting app with user authentication, authorization, and admin functionalities, allowing users to cast votes, preventing duplicate votes, enabling the admin to view all votes, and providing a button to determine the winning candidate while closing the voting forms.
 
-## Live
+## Live App
 
 https://voting-app-ashy-three.vercel.app/
 
