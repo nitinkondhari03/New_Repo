@@ -8,6 +8,10 @@ A secure voting app with user authentication, authorization, and admin functiona
 
 **Back-end:** Nodejs,PostgreSQL-Database
 
+## Live
+
+https://voting-app-ashy-three.vercel.app/
+
 ## Install dependencies
 
  Frontend
