@@ -1,0 +1,43 @@
+.Register_div {
+  max-width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  padding: 10px 20px 30px 20px;
+  margin-top: 60px;
+}
+.Register_div > form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+}
+.Register_div>form > input {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.usernameempty{
+      border: 2px solid red;
+}
+.emailempty{
+      border: 2px solid red;  
+}
+.passwordempty{
+      border: 2px solid red;  
+}
+.phonenumberempty{
+      border: 2px solid red;   
+}
+.emailexit{
+ text-align: start;
+ color: red; 
+ font-size: 22px;
+ 
+}
+
+.plaseenterregister{
+      text-align: start;
+      color: red;
+      margin-top: -20px;
+      font-size: 19px;   
+}

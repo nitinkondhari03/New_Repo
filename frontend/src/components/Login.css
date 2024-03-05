@@ -1,0 +1,38 @@
+.login_div {
+      max-width: 400px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin: auto;
+      padding: 10px 20px 30px 20px;
+      margin-top: 150px;
+    }
+    .login_div>form {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      gap: 20px;
+    }
+    .login_div>form > input {
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+    .emailloginempty{
+      border: 2px solid red;
+    }
+    .passwordloginempty{
+      border: 2px solid red;
+    }
+.Wrong_Credentials{
+  display: flex;
+}
+.Wrong_Credentials>span{
+  text-align: start;
+  color: red;
+  font-size: 22px;
+}
+.plaseenter{
+text-align: start;
+color: red;
+margin-top: -20px;
+font-size: 19px;
+}
