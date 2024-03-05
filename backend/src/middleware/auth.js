@@ -33,4 +33,5 @@ const authorizeRoles = (req, res, next) => {
     res.send(error);
   }
 };
+
 module.exports = { isAuththenticatedUser, authorizeRoles };

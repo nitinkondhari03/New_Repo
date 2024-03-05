@@ -10,6 +10,7 @@ const WinnnerFromsubmit = async (req, res) => {
     res.send({ message: error.message });
   }
 };
+
 const Winnnerfindone = async (req, res) => {
   const { id } = req.params;
   try {
@@ -19,6 +20,7 @@ const Winnnerfindone = async (req, res) => {
     res.send(error);
   }
 };
+
 const Winnerupdate = async (req, res) => {
   const { id } = req.params;
   const { winner_status, winner } = req.body;
@@ -32,4 +34,5 @@ const Winnerupdate = async (req, res) => {
     res.send({ message: error.message });
   }
 };
+
 module.exports = { WinnnerFromsubmit, Winnnerfindone, Winnerupdate };
