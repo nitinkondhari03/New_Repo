@@ -2,15 +2,15 @@
 
 A secure voting app with user authentication, authorization, and admin functionalities, allowing users to cast votes, preventing duplicate votes, enabling the admin to view all votes, and providing a button to determine the winning candidate while closing the voting forms.
 
+## Live
+
+https://voting-app-ashy-three.vercel.app/
+
 ## Tech Stack
 
 **Front-end:** React,CSS
 
 **Back-end:** Nodejs,PostgreSQL-Database
-
-## Live
-
-https://voting-app-ashy-three.vercel.app/
 
 ## Install dependencies
 
