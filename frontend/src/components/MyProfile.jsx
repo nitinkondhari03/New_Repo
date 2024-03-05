@@ -12,7 +12,7 @@ const MyProfile = () => {
   const handlecheck = async () => {
     try {
       const { data } = await axios.get(
-        "https://new-repo-vcxd.onrender.com/userprotected",
+        "https://voting-app-q78k.onrender.com/userprotected",
         {
           headers: {
             "Content-Type": "application/json",

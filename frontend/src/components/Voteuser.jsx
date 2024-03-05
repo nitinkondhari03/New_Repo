@@ -18,7 +18,7 @@ const Voteuser = () => {
   const handlewinnercheck = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.get(`https://new-repo-vcxd.onrender.com/winner/1`, {
+      const { data } = await axios.get(`https://voting-app-q78k.onrender.com/winner/1`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
@@ -38,7 +38,7 @@ const Voteuser = () => {
   const handlecheckauth = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.get(`https://new-repo-vcxd.onrender.com/votesid/1`, {
+      const { data } = await axios.get(`https://voting-app-q78k.onrender.com/votesid/1`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
@@ -59,7 +59,7 @@ const Voteuser = () => {
   const handlecheck = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.get(`https://new-repo-vcxd.onrender.com/vote/1`, {
+      const { data } = await axios.get(`https://voting-app-q78k.onrender.com/vote/1`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
@@ -83,7 +83,7 @@ const Voteuser = () => {
     };
    
     try {
-      let { data } = await axios.post(`https://new-repo-vcxd.onrender.com/votes/1`, obj, {
+      let { data } = await axios.post(`https://voting-app-q78k.onrender.com/votes/1`, obj, {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,

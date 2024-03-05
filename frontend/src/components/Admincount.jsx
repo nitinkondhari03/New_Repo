@@ -18,7 +18,7 @@ const Admincount = () => {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        "https://new-repo-vcxd.onrender.com/userprotected",
+        "https://voting-app-q78k.onrender.com/userprotected",
         {
           headers: {
             "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const Admincount = () => {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        `https://new-repo-vcxd.onrender.com/winner/1`,
+        `https://voting-app-q78k.onrender.com/winner/1`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -62,7 +62,7 @@ const Admincount = () => {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        `https://new-repo-vcxd.onrender.com/votescount/1`,
+        `https://voting-app-q78k.onrender.com/votescount/1`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -111,7 +111,7 @@ const Admincount = () => {
     setLoading(true);
     try {
       const { data } = await axios.patch(
-        `https://new-repo-vcxd.onrender.com/winnerupdate/1`,
+        `https://voting-app-q78k.onrender.com/winnerupdate/1`,
         {
           winner_status: !winner_status,
           winner: winner,

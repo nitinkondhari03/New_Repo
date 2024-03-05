@@ -22,7 +22,7 @@ const Register = () => {
   }, []);
   const handlecheck = async () => {
     try {
-      const { data } = await axios.get("https://new-repo-vcxd.onrender.com/userprotected", {
+      const { data } = await axios.get("https://voting-app-q78k.onrender.com/userprotected", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
@@ -68,7 +68,7 @@ const Register = () => {
       phonenumber,
     };
     try {
-      let { data } = await axios.post("https://new-repo-vcxd.onrender.com/register", obj);
+      let { data } = await axios.post("https://voting-app-q78k.onrender.com/register", obj);
       setloadingauth(false);
       if (data.message === "Email already Exit") {
         return setemailexit(true);

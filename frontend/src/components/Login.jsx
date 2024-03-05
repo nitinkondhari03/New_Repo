@@ -17,7 +17,7 @@ const Login = () => {
   }, []);
   const handlecheck = async () => {
     try {
-      const { data } = await axios.get("https://new-repo-vcxd.onrender.com/userprotected", {
+      const { data } = await axios.get("https://voting-app-q78k.onrender.com/userprotected", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
@@ -48,7 +48,7 @@ const Login = () => {
       password,
     };
     try {
-      let { data } = await axios.post("https://new-repo-vcxd.onrender.com/login", obj);
+      let { data } = await axios.post("https://voting-app-q78k.onrender.com/login", obj);
       setloadingauth(false);
       if (!data.token) {
         return setwrongcredentials(true);

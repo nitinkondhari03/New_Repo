@@ -16,7 +16,7 @@ const Home = () => {
   const handlecheck = async () => {
     setloading(true);
     try {
-      const { data } = await axios.get("https://new-repo-vcxd.onrender.com/userprotected", {
+      const { data } = await axios.get("https://voting-app-q78k.onrender.com/userprotected", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `${token}`,
